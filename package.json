@@ -1,7 +1,7 @@
 {
   "name": "gravity-assist-example-output",
   "description": "An example repository created by gravity-assist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "index.js",
   "author": "Mike Cunneen",
