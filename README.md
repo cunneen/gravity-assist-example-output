@@ -30,14 +30,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/cunneen/gravity-assist-example-output">
+  <!-- a href="https://github.com/cunneen/gravity-assist-example-output">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+</a -->
 
 <h3 align="center">gravity-assist-example-output</h3>
 
   <p align="center">
-    An example repository created by gravity-assist
+    This is an example repository created by gravity-assist
     <br />
     <a href="https://github.com/cunneen/gravity-assist-example-output"><strong>Explore the docs »</strong></a>
     <br />
@@ -85,7 +85,18 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `cunneen`, `gravity-assist-example-output`, ``, `linkedin_username`, `email_client`, `email`, `gravity-assist-example-output`, `An example repository created by gravity-assist`, `MIT`
+Apart from the "About The Project" text in this README, this repository was generated using [gravity-assist][gravity-assist], and exists
+only to provide an example of the output:
+
+- (this) GitHub repo created
+- Conventional commits enforced in commit comments
+- dotenvx secret management configured
+- Generated [Changelog][changelog]
+- Automatic version-bumping, tagging, and releasing, via `npm release` command
+- Commits are prevented if they break the mocha unit tests
+- This README.md file scaffolded
+
+The remainder of this readme remains as it was when first generated.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,15 +104,10 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
+* [![Bash][bash-logo]][bash-url]
+* [![NPM][npm-logo]][npm-url]
+* [![GitHub][github-cli-shield]][github]
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -227,10 +233,18 @@ Project Link: [https://github.com/cunneen/gravity-assist-example-output](https:/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[bash-url]: https://www.gnu.org/software/bash/
+[bash-logo]: https://img.shields.io/badge/bash-000000?style=for-the-badge&logo=gnubash&logoColor=4EAA25
+[changelog]: ./CHANGELOG.md
 [contributors-shield]: https://img.shields.io/github/contributors/cunneen/gravity-assist-example-output.svg?style=for-the-badge
 [contributors-url]: https://github.com/cunneen/gravity-assist-example-output/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/cunneen/gravity-assist-example-output.svg?style=for-the-badge
 [forks-url]: https://github.com/cunneen/gravity-assist-example-output/network/members
+[github-cli-shield]: https://img.shields.io/badge/GitHub%20CLI-000000?style=for-the-badge&logo=github&logoColor=FFFFFF
+[github]: https://github.com
+[gravity-assist]: https://github.com/cunneen/gravity-assist
+[npm-logo]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=FFFFFF
+[npm-url]: https://npmjs.com
 [stars-shield]: https://img.shields.io/github/stars/cunneen/gravity-assist-example-output.svg?style=for-the-badge
 [stars-url]: https://github.com/cunneen/gravity-assist-example-output/stargazers
 [issues-shield]: https://img.shields.io/github/issues/cunneen/gravity-assist-example-output.svg?style=for-the-badge
