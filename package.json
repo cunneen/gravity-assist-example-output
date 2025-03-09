@@ -1,0 +1,30 @@
+{
+  "name": "gravity-assist-example-output",
+  "description": "An example repository created by gravity-assist",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "index.js",
+  "author": "Mike Cunneen",
+  "private": "false",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "@dotenvx/dotenvx": "^1.38.4",
+    "chai": "^5.2.0",
+    "git-cliff": "^2.8.0",
+    "husky": "^9.1.7",
+    "mocha": "^11.1.0",
+    "release-it": "^18.1.2"
+  },
+  "scripts": {
+    "test": "dotenvx run -- ./node_modules/.bin/mocha",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit",
+    "release-changelog": "git-cliff --unreleased --prepend CHANGELOG.md --tag ",
+    "release": "dotenvx run release-it -- -i -u"
+  }
+}
